@@ -16,8 +16,6 @@ namespace BlazorGames.Models.Minesweeper
             X = x;
             Y = y;
         }
-    }
-
         public void Flag()
     {
         if(!IsRevealed)
@@ -31,4 +29,7 @@ namespace BlazorGames.Models.Minesweeper
         IsRevealed = true;
         IsFlagged = false; 
     }
+    }
+
+        
 }
