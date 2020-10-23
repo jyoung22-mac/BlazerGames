@@ -389,7 +389,7 @@ public class GameBoard
         if (!hiddenPanels.Except(minePanels).Any())
         {
             Status = GameStatus.Completed;
-            Stopwatch.Stop();
+           
         }
     }
 }
