@@ -593,8 +593,8 @@ We need special CSS classes for each state, and so the finished markup for the p
 
         else if (y > 0 && y < maxHeight)
         {
-            var currentPanel = board.Panels.First(m => m.X == x
-                                                          && m.Y == y);
+            var currentPanel = board.Panels.First(m => m.X == x && m.Y == y);
+                                                          
             if (currentPanel.IsRevealed)
             {
                 if (currentPanel.IsMine) //Mine
